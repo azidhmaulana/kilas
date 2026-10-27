@@ -1,0 +1,12 @@
+# Build output
+build/
+build-*/
+CMakeLists.txt.user*
+CMakeUserPresets.json
+
+# Logs
+*.log
+
+# Claude Code local state
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
